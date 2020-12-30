@@ -42,7 +42,7 @@ class Keyboard extends StatelessWidget {
           SizedBox(height: 1),
           ButtonRow([
             Button.big(text: '0', callBack: callBack),
-            Button(text: ',', callBack: callBack),
+            Button(text: '.', callBack: callBack),
             Button.operation(text: '=', callBack: callBack),
           ]),
         ],
